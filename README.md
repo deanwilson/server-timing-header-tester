@@ -1,6 +1,8 @@
 # server-timing-header-tester
 A small webapp for generating Server-Timing headers
 
+[![Actions Status](https://github.com/deanwilson/server-timing-header-tester/workflows/Python%20package/badge.svg)](https://github.com/deanwilson/server-timing-header-tester/actions)
+
 ## Introduction
 
 The Server-Timing specification is a way to add semi-structured values
@@ -24,11 +26,11 @@ this:
     cd server-timing-header-tester
 
     # create the venv and activate it
-    python3.7 -mvenv venv
+    python3 -mvenv venv
     source venv/bin/activate
 
     # install the dependencies
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 ### Running the application
 
@@ -77,7 +79,7 @@ tools.
 This application provides basic tests to ensure its behaviour is correct. They
 are located in [/tests/](/tests/) and run under pytest.
 
-    python -m pytest -v tests/
+    python3 -m pytest -v tests/
 
     tests/test_defaults.py::test_default_index PASSED                                     [ 20%]
     tests/test_defaults.py::test_default_headers PASSED                                   [ 40%]
