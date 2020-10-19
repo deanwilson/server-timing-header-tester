@@ -1,6 +1,8 @@
 # server-timing-header-tester
 A small webapp for generating Server-Timing headers
 
+[![Actions Status](https://github.com/deanwilson/server-timing-header-tester/workflows/Python%20package/badge.svg)](https://github.com/deanwilson/server-timing-header-tester/actions)
+
 ## Introduction
 
 The Server-Timing specification is a way to add semi-structured values
