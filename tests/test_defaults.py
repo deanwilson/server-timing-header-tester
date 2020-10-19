@@ -25,7 +25,7 @@ def extract_timings(timing):
     return expanded
 
 
-### Test the defaults
+# Test the defaults
 
 
 def test_default_index(client):
@@ -45,7 +45,7 @@ def test_default_headers(client):
     assert cache["desc"] == "cache_check"
 
 
-### Test URL specified headers
+# Test URL specified headers
 
 
 def test_single_url_param(client):
