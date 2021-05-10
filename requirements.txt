@@ -1,4 +1,4 @@
 black==21.4b2
-flake8==3.9.1
+flake8==3.9.2
 Flask==1.1.2
 pytest==6.2.3
